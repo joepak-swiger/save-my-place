@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Save My Place",
+    "slug": "save-my-place",
+    "version": "0.1.6",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.joeking.savemyplace",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "ios": {
+      "bundleIdentifier": "com.joeking.savemyplace",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Save My Place uses your photos only when you choose game covers or attach screenshots.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
